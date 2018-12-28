@@ -17,6 +17,8 @@
 		3F745A9F21D602E90034ABE7 /* CustomPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745A9E21D602E90034ABE7 /* CustomPushUITests.m */; };
 		3F745AAE21D603930034ABE7 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745AAD21D603930034ABE7 /* NavController.m */; };
 		3F745AB121D6043E0034ABE7 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745AB021D6043E0034ABE7 /* SecondVC.m */; };
+		3F745AB421D60A160034ABE7 /* CustomNAVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745AB321D60A160034ABE7 /* CustomNAVDelegate.m */; };
+		3F745AB721D60A680034ABE7 /* CustomPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745AB621D60A680034ABE7 /* CustomPushAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		3F745AAD21D603930034ABE7 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		3F745AAF21D6043E0034ABE7 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
 		3F745AB021D6043E0034ABE7 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		3F745AB221D60A160034ABE7 /* CustomNAVDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNAVDelegate.h; sourceTree = "<group>"; };
+		3F745AB321D60A160034ABE7 /* CustomNAVDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNAVDelegate.m; sourceTree = "<group>"; };
+		3F745AB521D60A680034ABE7 /* CustomPushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPushAnimation.h; sourceTree = "<group>"; };
+		3F745AB621D60A680034ABE7 /* CustomPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPushAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				3F745A8921D602E90034ABE7 /* main.m */,
 				3F745AAF21D6043E0034ABE7 /* SecondVC.h */,
 				3F745AB021D6043E0034ABE7 /* SecondVC.m */,
+				3F745AB221D60A160034ABE7 /* CustomNAVDelegate.h */,
+				3F745AB321D60A160034ABE7 /* CustomNAVDelegate.m */,
+				3F745AB521D60A680034ABE7 /* CustomPushAnimation.h */,
+				3F745AB621D60A680034ABE7 /* CustomPushAnimation.m */,
 			);
 			path = CustomPush;
 			sourceTree = "<group>";
@@ -273,10 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F745A7F21D602E60034ABE7 /* ViewController.m in Sources */,
+				3F745AB421D60A160034ABE7 /* CustomNAVDelegate.m in Sources */,
 				3F745A8A21D602E90034ABE7 /* main.m in Sources */,
 				3F745A7C21D602E60034ABE7 /* AppDelegate.m in Sources */,
 				3F745AB121D6043E0034ABE7 /* SecondVC.m in Sources */,
 				3F745AAE21D603930034ABE7 /* NavController.m in Sources */,
+				3F745AB721D60A680034ABE7 /* CustomPushAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
